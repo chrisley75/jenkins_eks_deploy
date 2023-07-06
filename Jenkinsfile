@@ -5,8 +5,8 @@ pipeline{
     environment{
         AWS_DEFAULT_REGION="eu-west-3"
         SKIP="N"
-        TERRADESTROY="Y"
-        FIRST_DEPLOY="N"
+        TERRADESTROY="N"
+        FIRST_DEPLOY="Y"
         STATE_BUCKET="cley-tfstate-bucket"
         CLUSTER_NAME="cley-eks"
         PRISMA_API_URL="https://api2.eu.prismacloud.io"
