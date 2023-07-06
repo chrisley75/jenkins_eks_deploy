@@ -6,9 +6,9 @@ variable "region" {
 
 # S3 bucket for TF
 variable "state_bucket"{
-    default = "cley-eks-tfstate-bucket"
+    default = "jenkins-eks-tfstate-bucket"
 }
 
 variable "state_key"{
-    default = "cley-eks-cluster.tfstate"
+    default = "jenkins-eks-cluster.tfstate"
 }
