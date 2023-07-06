@@ -6,9 +6,9 @@ pipeline{
         AWS_DEFAULT_REGION="eu-west-3"
         SKIP="N"
         TERRADESTROY="N"
-        FIRST_DEPLOY="N"
+        FIRST_DEPLOY="Y"
         STATE_BUCKET="cley-tfstate-bucket"
-        CLUSTER_NAME="cley-eks"
+        CLUSTER_NAME="jenkins-eks"
         PRISMA_API_URL="https://api2.eu.prismacloud.io"
     }
 
