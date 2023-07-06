@@ -7,7 +7,7 @@ pipeline{
         SKIP="N"
         TERRADESTROY="N"
         FIRST_DEPLOY="Y"
-        STATE_BUCKET="cley-tfstate-bucket"
+        STATE_BUCKET="jenkins-eks-tfstate-bucket"
         CLUSTER_NAME="jenkins-eks"
         PRISMA_API_URL="https://api2.eu.prismacloud.io"
     }
